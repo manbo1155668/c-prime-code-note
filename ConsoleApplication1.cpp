@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//c++primeplus1-4.3章笔记
+#include <iostream> 
 #include<cmath>
 #include<climits>
 
@@ -53,7 +54,7 @@
 // int jisuan=5+3*2;	
 // int jisuan2 = 120 / 4 * 5;	//乘除从左到右
 // short chicken=20;			//计算bool，char，unsigned/signed char，short会将值转换为int
-// cout << chicken << endl;	//c11中，转换优先级为long double》double》float》整形》均符号转高级》一有一无看级别》无符转有符》看二进制？
+// cout << chicken << endl;	//c11中，转换优先级为long double》double》float》整形》均符号转高级》一有一无看级别》无符转有符》看二进制？（此处我也不确定，欢迎指教）
 // cout << jisuan << endl;
 // cout << jisuan2 << endl;
 //	return 0;
@@ -189,13 +190,13 @@
 // //1，类似c#，仅替换scanf printf，不需"",()
 //int main()
 //{
-//	using namespace std;
+//	using namespace std;    ///命名空间，别放头文件
 //	int carrots;
 //	cout << "你有几个萝卜?\n"<<endl;
 //	cin >> carrots;
-//	cout<<"还有俩. ";
+//	cout<<"还有俩. ";    //注意符号方向
 //	carrots = carrots + 2;
-//	cout << "你现在有" << carrots << "萝卜." << endl;
+//	cout << "你现在有" << carrots << "萝卜." << endl;  //此处较printf简易许多
 //   return 0;
 //}
 
