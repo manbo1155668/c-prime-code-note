@@ -213,6 +213,9 @@
 /*结构体（struct）：独立空间，总大小是所有之和。互不干扰。*/
 /*联合体（union）：共享空间。联合体的大小等于其最大成员的大小。只能有一个成员保存有效的数据。（均需考虑分配的空闲内存即内存对齐）（结构体.成员/指针->成员）*/
 /*文件操作：fopen打开*file，fclose关闭fp=fopen"data.bin","rb",rwa读写追加，二进制中rb wb*/
+/*符合返回真      isdigit 0-9		islower a-z		isupper A-Z		isalpha	a-z/A-Z	isalnum A-Z/a-z/0-9*/
+/*strlen 计算长度		strcpy复制		strcat链接		strcmp比较		strncpy限定长度复制*/
+/*static 局部变量———生命周期     全局变量———作用域    修饰函数后只能在当前.c文件使用*/
 /*以及c一些常用内容prinf scanf sizeof static extern ascll编码 大端小端 string库str系列 ctype库is系列 */
 
 
