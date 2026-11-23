@@ -206,7 +206,7 @@
 /*编译预处理：#include、#define等在编译前由预处理器执行*/
 /*基本数据类型：整型（int 4字节、short 2、long 4-8）、浮点型（float 4、double 8）、字符型（char）以及布尔型（_Bool或bool 1）。*/
 /*数组：存储多个同类型值的连续内存空间，下标从0开始。		枚举（enum）：定义一组命名的整数常量。*/
-/*程序结构：if - else、switch - case）、循环（for、while、do - while，注意break，continue运行*/
+/*程序结构：if - else、switch - case）、循环（for、while、do - while，注意default，break，continue运行*/
 /*指针：保存变量地址的变量。 & 用于取地址， * 用于解引用（指针指向的值）。*/
 /*指针与数组：当指针pa指向数组首元素时， * (pa + i)与a[i]等价*/
 /*动态内存管理：malloc 分配指定内存，未初始化；calloc	分配精确的内存，初始化0；realloc	调整已分配内存的大小 free 释放*/
@@ -217,6 +217,8 @@
 /*strlen 计算长度		strcpy复制		strcat链接		strcmp比较		strncpy限定长度复制*/
 /*static 局部变量———生命周期     全局变量———作用域    修饰函数后只能在当前.c文件使用*/
 /*以及c一些常用内容prinf scanf sizeof static extern ascll编码 大端小端 string库str系列 ctype库is系列 */
+/*优先级：初等（括号/下标）>单目>算术>移位>关系>相等>位运算>逻辑>三目>赋值>逗号。单目、三目及赋值右结合，其余左结合*/  
+/*条件表达式 ? 表达式1 : 表达式2  即条件表达式真选择1，假选择2(类ifelse)，    例a>b?a:b  注意多三目式时从右到左运算*/
 
 
 //c++基本名词解释
