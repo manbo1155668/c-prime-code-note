@@ -1,4 +1,4 @@
-//c++primeplus1-4.3章笔记
+// //c++primeplus1-4.3章笔记
 #include <iostream> 
 #include<cmath>
 #include<climits>
@@ -49,7 +49,7 @@
 //	cin >> hajimi;
 //	cout << "manbo=" << manbo << "hajimi=" << hajimi << endl;
 //	cout << "m+n=" << manbo + hajimi << "m-n=" << manbo - hajimi << endl;			//如果此处出现如11.17+50.25应等于61.42，输出却为61.4999998，此为f精度所致
-//	cout << "m*n=" << manbo * hajimi << "m/n=" << manbo / hajimi << endl;	// 		//注意“%”为整形，不能用在f
+//	cout << "m*n=" << manbo * hajimi << "m/n=" << manbo / hajimi << endl;	// 		//注意c中“%”为整形，不能用在f
 // 
 // int jisuan=5+3*2;	
 // int jisuan2 = 120 / 4 * 5;	//乘除从左到右
@@ -123,8 +123,8 @@
 //    short A = SHRT_MAX;
 //    long N = LONG_MAX;
 //    long long BO = LLONG_MAX;
-//    cout << "int is " << sizeof(int) << " 字节" << endl;	//int类型名在此运算需加括号
-//    cout << "short is " << sizeof A << " 字节" << endl;	//变量名在此运算可选加括号
+//    cout << "int is " << sizeof(int) << " 字节" << endl;	  //int类型名在此运算需加括号
+//    cout << "short is " << sizeof A << " 字节" << endl;	    //变量名在此运算可选加括号
 //    cout << "long is" << sizeof N<< " 字节" << endl;
 //    cout << "long long is " << sizeof BO << " 字节" << endl << endl;
 //
@@ -158,7 +158,7 @@
 //}
 
 // //3，函数定义必须用（），声明也是	int void return double不可做为	变量或函数名，cout可做变量 对象之一
-//void simon(int);		//声明函数
+//void simon(int);	  	//声明函数
 //int main()
 //{
 //	using namespace std;
@@ -166,7 +166,7 @@
 //	cout << "输入整数";
 //	int manbo;
 //	cin >> manbo;
-//	simon(manbo);		//第二次调用，manbo为变量
+//	simon(manbo);		  //第二次调用，manbo为变量
 //	cout << "ok" << endl;
 //	return 0;
 //}
@@ -190,13 +190,13 @@
 // //1，类似c#，仅替换scanf printf，不需"",()
 //int main()
 //{
-//	using namespace std;    ///命名空间，别放头文件
+//	using namespace std;      ///命名空间，别放头文件
 //	int carrots;
 //	cout << "你有几个萝卜?\n"<<endl;
 //	cin >> carrots;
 //	cout<<"还有俩. ";    //注意符号方向
 //	carrots = carrots + 2;
-//	cout << "你现在有" << carrots << "萝卜." << endl;  //此处较printf简易许多
+//	cout << "你现在有" << carrots << "萝卜." << endl;    //此处较printf简易许多
 //   return 0;
 //}
 
@@ -222,7 +222,7 @@
 /*合法c语言常量：0Xab是合法的十六进制整数常量。数字之间不能夹空格；科学计数法中E后的指数必须是可带符号的整数，不能是0.2，也不能省略；八进制不能有8*/
 
 /*注意当把数组作为函数的参数（也就是形参）时，如double x[],编译器会把它当成一个指针（double *x）来处理*/
-/*注意c中“<<>>”为左右移动符号，作用为/2 */
+/*注意c中“<<>>”为左右移动符号，>>作用为/2 ,<<为乘2的n次方*/
 /*单引号所引单个字符，双引号引一串字符且末尾自带 \0 ，占的字节数 = 字符数 + 1*/
 /*注意一些符号：^ 转换为二进制，按位对比，不同取一，相同取0； &有0取0，相同得1 ；|有1即1*/
 /*使用变量计算前要先清空变量，不然会有未定义行为*/
