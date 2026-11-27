@@ -1,4 +1,5 @@
-﻿#include<iostream> 
+////6-8章分支，运算，函数
+#include<iostream> 
 ////18,模板函数和显式具体化
 //template<typename manbo>		//定义模板函数名
 //void nuoyi(manbo& a, manbo& b);		//视情况自动替换int double
