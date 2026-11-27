@@ -1,4 +1,4 @@
-// //c++primeplus1-4.3章笔记
+// //c++primeplus1-4.3章基础，与c不同点
 #include <iostream> 
 #include<cmath>
 #include<climits>
