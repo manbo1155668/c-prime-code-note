@@ -1,4 +1,5 @@
-﻿#include <iostream>
+////4-5结构 指针 循环
+#include <iostream>
 #include<vector>
 #include<ctime>
 // //13,延迟循环
